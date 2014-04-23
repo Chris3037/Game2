@@ -15,11 +15,6 @@ namespace Game2
 
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.Blue;
-            Console.ForegroundColor = ConsoleColor.White;
-            TextPrint("White on blue.");
-            Console.WriteLine("Another Line");
-            Console.ResetColor();
             Welcome();
         }
 
